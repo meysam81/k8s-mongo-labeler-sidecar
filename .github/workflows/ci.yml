@@ -20,7 +20,7 @@ permissions:
   security-events: write
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/k8s-mongo-labeler-sidecar
 
 jobs:
   build:
